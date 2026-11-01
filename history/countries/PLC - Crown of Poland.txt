@@ -1,6 +1,6 @@
 capital = 97
 
-
+recruit_character = PLC_grzegorz_braun
 set_research_slots = 2
 # Starting tech
 set_technology = {
@@ -21,4 +21,3 @@ set_popularities = {
 	neutrality = 10
 	fascism = 75
 }
-recruit_character = PLC_grzegorz_braun

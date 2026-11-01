@@ -3,11 +3,11 @@ characters = {
         name="Grzegorz Braun"
         portraits = {
             civilian = {
-                large="PLC_grzegorz_braun"
+                large="GFX_portrait_PLC_grzegorz_braun"
             }
         }
         country_leader = {
-            ideology=oligarchism
+            ideology=nazism
             traits = { inexperienced_monarch
                 rearmer
 

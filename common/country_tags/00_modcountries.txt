@@ -1,1 +1,1 @@
-PLC = "counries/Crown of Poland.txt"
+PLC = "countries/Crown of Poland.txt"

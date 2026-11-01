@@ -30,12 +30,12 @@ BEL = { color 	 = rgb { 193 171 8  }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 76 106 145 }
+		color_ui = rgb { 76 106 145 }
 }
 POL = {
-	color = rgb { 142 97 113 }
-	color_ui = rgb { 142 97 113 }
+	color = rgb { 154 119 138 }
+	color_ui = rgb { 154 119 138 }
 }
 DNZ = {
 	color = rgb { 172 132 140 }
