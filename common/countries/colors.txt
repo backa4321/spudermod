@@ -37,6 +37,14 @@ POL = {
 	color = rgb { 154 119 138 }
 	color_ui = rgb { 154 119 138 }
 }
+SIL = {
+	color = rgb { 125 80 110 }
+	color_ui = rgb { 125 80 110 }
+}
+PLC = {
+	color = rgb { 154 119 138 }
+	color_ui = rgb { 154 119 138 }
+}
 DNZ = {
 	color = rgb { 172 132 140 }
 	color_ui = rgb { 72 132 140 }
@@ -373,8 +381,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 24 96 132 }
+	color_ui = rgb { 24 96 132 }	
 }
 
 AZR = {
@@ -453,8 +461,8 @@ MNT = {
 }
 
 BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
+	color = rgb { 125 151 136 }
+	color_ui = rgb { 125 151 136 }
 }
 MAN = {
 	color = rgb { 255 120 71 }
