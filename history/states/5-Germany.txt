@@ -6,8 +6,8 @@ state = {
 
 	history = {
 
-		owner = POL
-		add_core_of = POL
+		owner = DNZ
+		add_core_of = DNZ
 
 		victory_points = {
 			6375 3 # Allenstein

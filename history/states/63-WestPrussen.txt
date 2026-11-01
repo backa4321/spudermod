@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = POL
-		add_core_of = POL
+		owner = DNZ
+		add_core_of = DNZ
 
 		victory_points = {
 			6282 5 # Stettin
