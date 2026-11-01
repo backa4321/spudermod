@@ -6,3 +6,5 @@ tags={
 name="Spudermod"
 supported_version="1.19.4.1"
 replace_path="common/national_focus/generic.txt"
+replace_path="history/states"
+replace_path="common/country"
