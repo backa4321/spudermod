@@ -1,6 +1,6 @@
 characters = {
     PLC_grzegorz_braun = {
-        name="Grzegorz Braun"
+        name=PLC_grzegorz_braun
         portraits = {
             civilian = {
                 large="GFX_portrait_PLC_grzegorz_braun"
@@ -8,7 +8,8 @@ characters = {
         }
         country_leader = {
             ideology=nazism
-            traits = { inexperienced_monarch
+            traits = { 
+                inexperienced_monarch
                 rearmer
 
             }
