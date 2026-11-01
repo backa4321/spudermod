@@ -1,0 +1,18 @@
+characters = {
+    PLC_grzegorz_braun = {
+        name="Grzegorz Braun"
+        portraits = {
+            civilian = {
+                large="PLC_grzegorz_braun"
+            }
+        }
+        country_leader = {
+            ideology=oligarchism
+            traits = { inexperienced_monarch
+                rearmer
+
+            }
+        }
+    }
+
+}

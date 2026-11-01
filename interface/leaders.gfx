@@ -1,0 +1,7 @@
+spriteTypes = {
+    
+    spriteType = {
+        name = "GFX_portrait_PLC_grzegorz_braun"
+        texturefile = "gfx/leaders/PLC/portrait_PLC_grzegorz_braun.dds"
+    }
+}
