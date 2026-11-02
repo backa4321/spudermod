@@ -1,0 +1,18 @@
+characters = {
+    POL_donald_tusk = {
+        name=POL_donald_tusk
+        portraits = {
+            civilian = {
+                large="GFX_portrait_POL_donald_tusk"
+            }
+        }
+        country_leader = {
+            ideology=socialism
+            traits = { 
+				likes_germany
+
+            }
+        }
+    }
+
+}
