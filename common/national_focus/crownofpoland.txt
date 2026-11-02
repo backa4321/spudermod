@@ -1,0 +1,56 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = plc_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PLC
+		}
+	}
+	
+
+	default = no
+	continuous_focus_position = { x = 50 y = 2500 }
+
+	initial_show_position = {
+		x = 120
+		y = 0
+	}
+	focus = {
+		id = PLC_1
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 35
+		y = 0
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			}
+		}
+
+	}
+}
