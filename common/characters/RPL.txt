@@ -1,0 +1,18 @@
+characters = {
+    RPL_karol_nawrocki = {
+        name=RPL_karol_nawrocki
+        portraits = {
+            civilian = {
+                large="GFX_portrait_RPL_karol_nawrocki"
+            }
+        }
+        country_leader = {
+            ideology=centrism
+            traits = { 
+                right_industrialist
+
+            }
+        }
+    }
+
+}

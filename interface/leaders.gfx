@@ -8,4 +8,12 @@ spriteTypes = {
         name = "GFX_portrait_POL_donald_tusk"
         texturefile = "gfx/leaders/POL/portrait_POL_donald_tusk.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_GER_frank_walter"
+        texturefile = "gfx/leaders/GER/portrait_GER_frank_walter.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_RPL_karol_nawrocki"
+        texturefile = "gfx/leaders/RPL/portrait_RPL_karol_nawrocki.dds"
+    }
 }
