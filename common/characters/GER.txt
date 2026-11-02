@@ -1,0 +1,18 @@
+characters = {
+    GER_frank_walter = {
+        name=GER_frank_walter
+        portraits = {
+            civilian = {
+                large="GFX_portrait_GER_frank_walter"
+            }
+        }
+        country_leader = {
+            ideology=socialism
+            traits = { 
+                resolute_social_democrat
+
+            }
+        }
+    }
+
+}
