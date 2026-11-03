@@ -1,5 +1,5 @@
 capital = 86
-
+load_oob = RPL_2039
 recruit_character = RPL_karol_nawrocki
 set_research_slots = 2
 # Starting tech

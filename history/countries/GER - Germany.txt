@@ -1,4 +1,6 @@
 ﻿capital = 64
+load_oob = ALL_2039
+
 recruit_character = GER_frank_walter
 set_research_slots = 2
 # Starting tech

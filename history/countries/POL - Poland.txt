@@ -1,5 +1,5 @@
 ﻿capital = 97
-
+load_oob = POL_2039
 recruit_character = POL_donald_tusk
 set_research_slots = 2
 # Starting tech
