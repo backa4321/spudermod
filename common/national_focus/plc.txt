@@ -15,6 +15,7 @@ focus_tree = {
 	country = {
 		factor = 10
 		modifier = {
+			add = 10
 			tag = PLC
 		}
 	}
@@ -311,6 +312,7 @@ focus_tree = {
 			}
 		}
 		prerequisite = { focus = PLC_united_right }
+		mutually_exclusive = { focus = PLC_pacify_tusk }
 	}
 	focus = {
 		id = PLC_pacify_tusk
