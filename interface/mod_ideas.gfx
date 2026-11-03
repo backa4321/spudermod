@@ -1,0 +1,6 @@
+Spritetypes = {
+	spriteType = {
+        name = "GFX_idea_POL_exclusion"
+        texturefile = "gfx/ideas/POL_exclusion.dds"
+    }
+}

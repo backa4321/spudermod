@@ -1,6 +1,10 @@
 capital = 86
 load_oob = RPL_2039
 recruit_character = RPL_karol_nawrocki
+add_equipment_subsidy = {
+	cic = 6000
+	equipment_type = infantry_equipment_0
+}
 set_research_slots = 2
 # Starting tech
 set_technology = {
@@ -9,6 +13,7 @@ set_technology = {
 
 }
 puppet = DNZ
+add_ideas = POL_civil_war_exclusion
 
 set_politics = {
 	ruling_party = neutrality
