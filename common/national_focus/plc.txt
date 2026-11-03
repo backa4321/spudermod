@@ -28,8 +28,9 @@ focus_tree = {
 		x = 120
 		y = 0
 	}
+	### Main path, coronate braun
 	focus = {
-		id = PLC_strengthen_our_connection_with_the_neu
+		id = PLC_settle_the_monarchy
 
 		icon = GFX_focus_PLC_template
 		cancel_if_invalid = yes
@@ -57,5 +58,290 @@ focus_tree = {
 			}
 		}
 
+	}
+	focus = {
+		id = PLC_coronate_braun
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 35
+		y = 1
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_settle_the_monarchy 
+	}
+
+	}
+		focus = {
+		id = PLC_challenge_mentzen
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 37
+		y = 2
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_coronate_braun }
+		mutually_exclusive { focus = PLC_the_poznan_conference }
+
+	}
+	focus = {
+		id = PLC_the_poznan_conference
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 33
+		y = 2
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_coronate_braun }
+		mutually_exclusive { focus = PLC_challenge_mentzen }
+
+	}
+	### Śląsk focusy - ścieżka wojny z mentzenem
+	focus = {
+		id = PLC_the_braun_sutryk_coalition
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 39.5
+		y = 3.5
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_challenge_mentzen }
+		mutually_exclusive = { focus = PLC_operation_giewont}
+
+	}
+	focus = {
+		id = PLC_operation_giewont
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 41.5
+		y = 3.5
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_challenge_mentzen }
+		mutually_exclusive = { focus = PLC_the_braun_sutryk_coalition}
+	}
+		focus = {
+		id = PLC_integrate_silesia
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 40.5
+		y = 4.5
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { 
+			focus = PLC_operation_giewont
+			focus = PLC_the_braun_sutryk_coalition
+			}
+
+	}
+	focus = {
+			id = PLC_united_right
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 37
+		y = 3.5
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_challenge_mentzen }
+	}
+	focus = {
+			id = PLC_propose_second_warsaw_conference
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 35
+		y = 3.5
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_united_right }
+	}
+	focus = {
+		id = PLC_pacify_tusk
+
+		icon = GFX_focus_PLC_template
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_stability = 15
+			add_manpower = 750
+		}
+
+		#relative_position_id = 	
+		x = 37
+		y = 4.5
+		cost = 15
+
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+			}
+		}
+		prerequisite = { focus = PLC_united_right }
+		mutually_exclusive = { focus = PLC_propose_second_warsaw_conference}
 	}
 }

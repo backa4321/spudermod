@@ -1,0 +1,7 @@
+spriteTypes = {
+    
+    spriteType = {
+        name = "GFX_focus_PLC_template"
+        texturefile = "gfx/goals/focus_PLC_template.dds"
+    }
+}
