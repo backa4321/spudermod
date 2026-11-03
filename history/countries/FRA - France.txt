@@ -1,4 +1,5 @@
 ﻿capital = 16
+load_oob = ALL_2039
 
 set_research_slots = 1
 # Starting tech

@@ -1,5 +1,5 @@
 capital = 97
-
+load_oob = ALL_2039
 recruit_character = PLC_grzegorz_braun
 set_research_slots = 2
 # Starting tech
