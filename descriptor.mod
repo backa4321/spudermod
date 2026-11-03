@@ -10,4 +10,5 @@ replace_path="history/states"
 replace_path="common/countries"
 replace_path="common/bookmarks"
 replace_path="history/countries/GER - Germany.txt"
-replace_path="common/ai_strategy"
+replace_path="common/ai_strategy/GER"
+

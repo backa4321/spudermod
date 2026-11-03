@@ -44,7 +44,6 @@ bookmarks = {
 			ideology = neutrality
 			version = base_game
 			ideas={
-				POL_civil_war_exclusion
 			}
 			focuses = {
 

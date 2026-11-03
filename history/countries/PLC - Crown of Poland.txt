@@ -12,7 +12,6 @@ set_technology = {
 	tech_support = 1		
 
 }
-add_idea = POL_civil_war_exclusion
 
 set_politics = {
 	ruling_party = fascism
