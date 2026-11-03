@@ -137,8 +137,8 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 38.55
-		y = 2.75
+		x = 39.25
+		y = 3.75
 		cost = 15
 
 		offset = {
@@ -201,7 +201,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 40.5
+		x = 43
 		y = 2.5
 		cost = 15
 
@@ -232,9 +232,10 @@ focus = {
 			add_manpower = 750
 		}
 
-		#relative_position_id = 	
-		x = 39.5
-		y = 3.5
+		relative_position_id = PLC_prepare_a_western_enclave
+		x = 7
+		y = 1
+	
 		cost = 15
 
 		offset = {
@@ -362,9 +363,9 @@ focus = {
 			add_manpower = 750
 		}
 
-		#relative_position_id = 	
-		x = 40.5
-		y = 4.5
+		relative_position_id = PLC_prepare_a_western_enclave
+		x = 5
+		y = 2
 		cost = 15
 
 		offset = {
@@ -1232,8 +1233,8 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 36.8
-		y = 13.75
+		x = 37.8
+		y = 14.75
 		cost = 15
 
 		offset = {
