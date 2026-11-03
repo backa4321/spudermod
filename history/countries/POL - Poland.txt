@@ -1,6 +1,10 @@
-﻿capital = 97
+﻿capital = 10
 load_oob = POL_2039
 recruit_character = POL_donald_tusk
+add_equipment_subsidy = {
+	cic = 2000
+	equipment_type = infantry_equipment_0
+}
 set_research_slots = 2
 # Starting tech
 set_technology = {

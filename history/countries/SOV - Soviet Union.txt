@@ -1,5 +1,10 @@
 ﻿capital = 219
-load_oob = ALL_2039
+load_oob = SOV_2039
+recruit_character = SOV_dmitrij_medvedev
+add_equipment_subsidy = {
+	cic = 25000
+	equipment_type = infantry_equipment_0
+}
 set_research_slots = 1
 # Starting tech
 set_technology = {

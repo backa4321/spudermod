@@ -1,0 +1,19 @@
+characters = {
+    CZE_petr_pavel = {
+        name=CZE_petr_pavel
+        portraits = {
+            civilian = {
+                large="GFX_portrait_CZE_petr_pavel"
+            }
+        }
+        country_leader = {
+            ideology=centrism
+            traits = { 
+                SWE_close_ties_to_the_military
+                rearmer
+
+            }
+        }
+    }
+
+}

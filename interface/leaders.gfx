@@ -16,4 +16,16 @@ spriteTypes = {
         name = "GFX_portrait_RPL_karol_nawrocki"
         texturefile = "gfx/leaders/RPL/portrait_RPL_karol_nawrocki.dds"
     }
+        spriteType = {
+        name = "GFX_portrait_SOV_dmitrij_medvedev"
+        texturefile = "gfx/leaders/SOV/portrait_SOV_dmitrij_medvedev.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_BAY_markus_soder"
+        texturefile = "gfx/leaders/BAY/portrait_BAY_markus_soder.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_CZE_petr_pavel"
+        texturefile = "gfx/leaders/CZE/portrait_CZE_petr_pavel.dds"
+    }
 }

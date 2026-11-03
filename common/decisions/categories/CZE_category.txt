@@ -1,0 +1,12 @@
+CZE_expansion = {
+    allowed = {
+        tag = CZE
+    }
+	visible = {
+		country_exists = CZE
+		tag = CZE
+	}
+    priority = 255
+    icon = GFX_decision_category_generic_political_actions
+    visible_when_empty = yes
+}

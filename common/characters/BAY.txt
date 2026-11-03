@@ -1,0 +1,18 @@
+characters = {
+    BAY_markus_soder = {
+        name=BAY_markus_soder
+        portraits = {
+            civilian = {
+                large="GFX_portrait_BAY_markus_soder"
+            }
+        }
+        country_leader = {
+            ideology=conservatism
+            traits = { 
+                conservative_nationalist
+
+            }
+        }
+    }
+
+}

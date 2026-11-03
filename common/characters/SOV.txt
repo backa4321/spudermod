@@ -1,0 +1,19 @@
+characters = {
+    SOV_dmitrij_medvedev = {
+        name=SOV_dmitrij_medvedev
+        portraits = {
+            civilian = {
+                large="GFX_portrait_SOV_dmitrij_medvedev"
+            }
+        }
+        country_leader = {
+            ideology=oligarchism
+            traits = { 
+				rearmer
+				old_figurehead
+
+            }
+        }
+    }
+
+}

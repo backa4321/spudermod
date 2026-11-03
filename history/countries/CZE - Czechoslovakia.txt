@@ -1,0 +1,26 @@
+﻿capital = 9
+load_oob = CZE_2039
+recruit_character = CZE_petr_pavel
+add_equipment_subsidy = {
+	cic = 5000
+	equipment_type = infantry_equipment_0
+}
+set_research_slots = 1
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1934.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 23
+	communism = 2
+	neutrality = 72
+	fascism = 3
+}
