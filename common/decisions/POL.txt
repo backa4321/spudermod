@@ -36,10 +36,10 @@ POL_civil_war_category = {
 					type = annex_everything
 				}
 			}
-			RPL = { every_owned_state = {
+			RPL = { every_core_state = {
 				add_core_of = POL
 			}}
-			POL = { every_owned_state = {
+			POL = { every_core_state = {
 				add_core_of = RPL
 			}}
 		}
