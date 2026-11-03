@@ -10,24 +10,24 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
-	id = plc_focus_tree
-	
-	country = {
-		factor = 10
-		modifier = {
-			add = 10
-			tag = PLC
-		}
-	}
-	
+    id = plc_focus_tree
 
-	default = no
-	continuous_focus_position = { x = 50 y = 2500 }
+    country = {
+        factor = 0
+        modifier = {
+            add = 100
+            original_tag = PLC
+        }
+    }
 
-	initial_show_position = {
-		x = 120
-		y = 0
-	}
+    default = no
+
+    continuous_focus_position = { x = 50 y = 2500 }
+
+    initial_show_position = {
+        x = 120
+        y = 0
+    }
 	### Main path, coronate braun
 	focus = {
 		id = PLC_settle_the_monarchy
