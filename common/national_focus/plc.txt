@@ -137,8 +137,8 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 38.5
-		y = 2.5
+		x = 38.55
+		y = 2.75
 		cost = 15
 
 		offset = {
@@ -331,7 +331,7 @@ focus = {
 
 		#relative_position_id = 	
 		x = 42.5
-		y = 5.5
+		y = 6
 		cost = 15
 
 		offset = {
@@ -521,7 +521,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 38.75 
+		x = 39
 		y = 6.75
 		cost = 15
 
@@ -1232,8 +1232,8 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 36.75
-		y = 13.5
+		x = 36.8
+		y = 13.75
 		cost = 15
 
 		offset = {
