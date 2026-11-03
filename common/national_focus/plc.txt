@@ -13,11 +13,8 @@ focus_tree = {
 	id = plc_focus_tree
 	
 	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = PLC
-		}
+		factor = 10
+		tag = PLC
 	}
 	
 
