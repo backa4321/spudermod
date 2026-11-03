@@ -17,7 +17,7 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 57 113 133 }
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
@@ -86,8 +86,8 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
-	color = rgb { 224 5 5 }
-	color_ui = rgb { 193 81 81 }
+	color = rgb { 100 25 25 }
+	color_ui = rgb { 100 81 81 }
 }
 TUR = {
 	color = rgb { 171 190 152 }
@@ -126,8 +126,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 155 126 98 }
+	color_ui = rgb { 155 126 98 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -311,7 +311,7 @@ OMA = {
 	color_ui = rgb { 202 131 139 }
 }
 SLO = {
-	color = rgb { 158  161  188 }
+	color = rgb { 120  141  150 }
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {

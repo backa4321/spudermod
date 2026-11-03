@@ -1,4 +1,7 @@
 ﻿l_english:
+ PANDEMIC_NAME:0 "Pandemic Collapse"
+ PANDEMIC_DESC:0 "Times have passed, the COVID-19 pandemic has grown out of control. It's almost like we've gone back years in development. There is nothing left but to rebuild."
+
  PLC_fascism:0 "Crown of Poland"
  PLC_fascism_DEF:0 "the Crown of Poland"
  PLC_democratic:0 "Crown of Poland"

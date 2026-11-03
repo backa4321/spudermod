@@ -1,0 +1,85 @@
+bookmarks = {
+	bookmark = {
+		name = "PANDEMIC_NAME"
+		desc = "PANDEMIC_DESC"
+		date = 2039.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "POL"
+		filters = { new_content continent }
+	
+		POL = {
+			history = POL_pandemic_desc
+			ideology = democratic
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		GER = {
+			history = GER_pandemic_desc
+			ideology = neutrality
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		RPL = {
+			history = RPL_pandemic_desc
+			ideology = democratic
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		PLC = {
+			history = PLC_pandemic_desc
+			ideology = neutrality
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SOV = {
+			history = SOV_pandemic_desc
+			ideology = communism
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		CZE = {
+			history = CZE_pandemic_desc
+			ideology = democratic
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		BAY = {
+			history = BAY_pandemic_desc
+			ideology = neutrality
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
