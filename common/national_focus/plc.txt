@@ -14,7 +14,9 @@ focus_tree = {
 	
 	country = {
 		factor = 10
-		tag = PLC
+		modifier = {
+			tag = PLC
+		}
 	}
 	
 
