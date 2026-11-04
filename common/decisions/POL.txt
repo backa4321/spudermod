@@ -2,7 +2,7 @@ POL_civil_war_category = {
 
 	POL_civil_war_mission = {
 
-		allowed = { tag = POL }
+		allowed = { OR = {tag = POL tag = RPL }}
 
 		icon = POL_looming_peasants_strike
 
@@ -13,10 +13,6 @@ POL_civil_war_category = {
 		days_mission_timeout = 730
 		is_good = no
 		fire_only_once = yes
-
-		cancel_trigger = {
-			NOT = {country_exists = RPL}
-		}
 		
 		activation = {
 		}
@@ -30,7 +26,7 @@ POL_civil_war_category = {
 		}
 
 		timeout_effect = {
-			POL = {
+			THIS = {
 				declare_war_on = {
 					target = RPL
 					type = annex_everything
@@ -47,5 +43,73 @@ POL_civil_war_category = {
 		ai_will_do = {
 			factor = 200
 		}
+		cancel_trigger = {
+			ROOT = {
+					owns_state = 10
+					owns_state = 86
+				}
+        }
+		cancel_effect = {
+			RPL = { every_core_state = {
+				add_core_of = POL
+			}
+		}
+			POL = { every_core_state = {
+				add_core_of = RPL
+			}
+		}
+		}
 	}
+	POL_finish_whats_left = {
+        allowed = {
+			
+        }
+		available = {
+				ROOT = {
+					owns_state = 10
+					owns_state = 86
+				}
+				
+
+			
+		}
+		visible = {
+			OR = {
+			tag = POL
+			tag = RPL
+			}
+			
+		}
+		ai_will_do = {
+		
+		}
+        icon = QAT_example      
+        fire_only_once = yes
+        days_remove = 60
+        modifier = {
+            training_time_factor = -0.3
+			stability_factor = -0.02
+        }
+        remove_effect = {
+			66 = {
+				owner = {
+					ROOT = {
+						declare_war_on = {
+							target = PREV
+							type = independence_wargoal
+						}
+					}
+				}
+			}
+			SIL = {
+				every_core_state = {
+					add_core_of = root
+				}
+			}
+			
+        }
+        cancel_trigger = {
+			NOT = {country_exists = SIL}
+        }
+    }
 }

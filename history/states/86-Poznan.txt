@@ -17,6 +17,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			arms_factory = 3
 			11232 = {
 				bunker = 1
 
@@ -32,9 +33,6 @@ state = {
 			air_base = 3
 		}
 		
-		1938.3.12 = {
-			add_claim_by = GER
-		}
 	}
 
 	provinces = {

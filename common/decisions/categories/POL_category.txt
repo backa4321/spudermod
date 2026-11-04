@@ -1,10 +1,16 @@
 POL_civil_war_category = {
     allowed = {
+        OR = {
         tag = POL
+        tag = RPL
+        }
+        
     }
 	visible = {
-		country_exists = RPL
-		tag = POL
+		OR = {
+        tag = POL
+        tag = RPL
+        }
 	}
     priority = 255
     icon = GFX_decision_category_generic_political_actions

@@ -2,16 +2,11 @@ ideas = {
 	country = {
 		POL_civil_war_exclusion = {
 			available = {
-				NOT = {
-					OR = {
-					POL = {
-						controls_state = 86
-					}
-					RPL = {
-						controls_state = 10
-					}
+					AND = {
+						country_exists = POL
+						country_exists = RPL
 				}
-				}
+				
 				
 			}
 

@@ -11,4 +11,4 @@ replace_path="common/countries"
 replace_path="common/bookmarks"
 replace_path="history/countries/GER - Germany.txt"
 replace_path="common/ai_strategy/GER"
-
+replace_path="common/ai_strategy/SOV.txt"
