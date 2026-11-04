@@ -30,6 +30,11 @@ spriteTypes = {
 		name = "GFX_clausewitz_logo"
 		texturefile = "gfx/interface/clausewitz_logo.dds"
 	}	
+	
+	spriteType = { 
+		name = "GFX_modlogo"
+		texturefile= "gfx/interface/logo.dds"
+	}
 
 	progressbartype = {
 		name = "GFX_loadingstatus_progress"

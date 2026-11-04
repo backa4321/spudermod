@@ -47,7 +47,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -400 y = 13 }
+				position = { x = -400 y = 475 }
 				textureFile = ""
 				font = "loadscreen_header"
 				borderSize = {x = 0 y = 0}
@@ -62,14 +62,31 @@ guiTypes = {
 			{
 				name = "progressbar"
 				spriteType = "GFX_loadingstatus_progress"
-				position = { x=-468 y=50 }
+				position = { x=-468 y=550 }
 			}
 		}
-		
+		windowType = {
+			name = "logo"
+			backGround = ""
+			position = { x = 0 y = 0 }
+			size = { x = 100 y = 100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER"
+			
+			iconType = {
+				name="modlogo"
+				spriteType = "GFX_modlogo"
+				position = { x= -100 y=-200 }
+			}
+		}
 		windowType = {
 			name = "tip"
 			backGround =""
-			position = { x = 0 y = 0 }
+			position = { x = 0 y =-350 }
 			size = { x = 1024 y = 200 }
 			moveable = 0
 			dontRender = ""
