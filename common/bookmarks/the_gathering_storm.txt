@@ -18,6 +18,16 @@ bookmarks = {
 
 			}
 		}
+		SIL = {
+			history = brak
+			ideology = democratic
+			version = base_game
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
 		GER = {
 			history = GER_pandemic_desc
 			ideology = neutrality

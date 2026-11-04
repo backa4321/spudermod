@@ -1,0 +1,17 @@
+characters = {
+    SIL_jacek_sutryk = {
+        name=SIL_jacek_sutryk
+        portraits = {
+            civilian = {
+                large="GFX_portrait_SIL_jacek_sutryk"
+            }
+        }
+        country_leader = {
+            ideology=liberalism
+            traits = { 
+
+            }
+        }
+    }
+
+}
