@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		CZE_sil_invasion = {
+			available = {
+				THIS = {
+					has_war_with = SIL
+				}
+				tag = CZE
+				
+			}
+
+			removal_cost = -1
+			
+			picture = CZE_sil_invasion
+			
+			modifier = {
+				army_attack_factor = 0.09
+				army_defence_factor = 0.09
+				war_support_factor = 0.15
+				army_org_factor = 0.09
+			}
+		}
+	}
+}

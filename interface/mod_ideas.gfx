@@ -3,4 +3,8 @@ Spritetypes = {
         name = "GFX_idea_POL_exclusion"
         texturefile = "gfx/ideas/POL_exclusion.dds"
     }
+    spriteType = {
+        name = "GFX_idea_CZE_sil_invasion"
+        texturefile = "gfx/ideas/CZE_sil_invasion.dds"
+    }
 }
