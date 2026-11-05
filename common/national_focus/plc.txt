@@ -32,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = PLC_settle_the_monarchy
 
-		icon = GFX_focus_PLC_template
+		icon = GFX_focus_PLC_settle_the_monarchy
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
@@ -45,7 +45,7 @@ focus_tree = {
 		#relative_position_id = 	
 		x = 35
 		y = 0
-		cost = 15
+		cost = 1
 
 		offset = {
 			x = -5
@@ -62,7 +62,7 @@ focus_tree = {
 	focus = {
 		id = PLC_coronate_braun
 
-		icon = GFX_focus_PLC_template
+		icon = GFX_focus_PLC_coronate_braun
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
@@ -75,7 +75,7 @@ focus_tree = {
 		#relative_position_id = 	
 		x = 35
 		y = 1
-		cost = 15
+		cost = 2
 
 		offset = {
 			x = -5
