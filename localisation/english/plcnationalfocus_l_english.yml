@@ -1,0 +1,72 @@
+l_english:
+ PLC_settle_the_monarchy:0 "Settle The Monarchy"
+ PLC_settle_the_monarchy_desc:0 "It's time to finally act. The civil war inches closer and we haven't progressed since the first one."
+
+ PLC_coronate_braun:0 "Coronate Braun"
+ PLC_coronate_braun_desc:0 "All hail Grzegorz I! We've established a monarchy system, now it's time to pick an actual monarch. Braun is the only logical option."
+
+ PLC_the_poznan_conference:0 "The Poznań Conference"
+ PLC_the_poznan_conference_desc:0 "Perhaps there is a different way to settle our conflict with Mentzen. We should unite our arms for a final battle against Tusk. Let us suggest a conference in Poznań."
+
+ PLC_challenge_mentzen:0 "Challenge Mentzen"
+ PLC_the_poznan_conference_desc:0 "How does Mentzen dare mock our authority? We might be unprepared but so are all of them. It's all or nothing."
+
+ PLC_fortify_bialystok:0 "Fortify Białystok"
+ PLC_fortify_bialystok_desc:0 "We cannot let Nawrocki take our capital. Białystok desperately needs defense modernizations. We must develop forts both inside the city and in the region itself."
+
+ PLC_prepare_a_western_enclave:0 "Prepare a Western Enclave"
+ PLC_prepare_a_western_enclave_desc:0 "To unite Poland we need Silesia. We are both the minorities in the civil war. It's time to plan for a union."
+
+ PLC_operation_giewont:0 "Operation Giewont"
+ PLC_operation_giewont_desc:0 "There is no point in any diplomatic action with Sutryk. It's war or nothing."
+
+ PLC_the_braun_sutryk_coalition:0 "The Braun-Sutryk Coalition"
+ PLC_the_braun_sutryk_coalition_desc:0 "We can negotiate a coalition with Silesia. A peaceful merging would waste less resources than a full invasion."
+
+ PLC_establish_the_sudeten_office:0 "Establish the Sudeten Office"
+ PLC_establish_the_sudeten_office_desc:0 "Creating a governing body in Silesia will help us integrate them into our monarchy quicker."
+
+ PLC_integrate_silesia:0 "Integrate Silesia"
+ PLC_integrate_silesia_desc:0 "It's time to fully integrate Silesia into Braun's Poland."
+
+ PLC_taking_over_the_right:0 "Taking Over the Right"
+ PLC_taking_over_the_right_desc:0 "Nawrocki's luck has ran out. It's time to prove everyone wrong."
+
+ PLC_attempt_to_allign_the_republic:0 "Attempt to Allign the Republic"
+ PLC_attempt_to_allign_the_republic_desc:0 "We've taken over the Right. Perhaps Tusk will fold under our pressure."
+
+ PLC_pacify_tusk:0 "Pacify Tusk"
+ PLC_pacify_tusk_desc:0 "There is no other way. Tusk's regime dies with us. The civil war is almost done."
+
+ PLC_a_new_economic_capital:0 "A New Economic Capital"
+ PLC_a_new_economic_capital_desc:0 "With hopes of a new alliance come different priorities. Białystok is barren of any significant economic centres. We should change that."
+
+ PLC_united_right:0 "United Right"
+ PLC_united_right_desc:0 "To defeat Tusk we must once more unite our forces. It's time for a United Right."
+
+ PLC_the_plock_gala:0 "The Płock Gala"
+ PLC_the_plock_gala_desc:0 "Surely Tusk is starting to doubt his chances in the war after our alliance. Let's schedule a meeting and negotiate a deal."
+
+ PLC_deploy_operation_fang:0 "Deploy Operation Fang"
+ PLC_deploy_operation_fang_desc:0 "Tusk's resiliance is stunning. Luckily, he is not resiliant to lead. We have a special operations squadron ready to deploy and finish Tusk at any moment."
+
+ PLC_retake_warsaw:0 "Retake Warsaw"
+ PLC_retake_warsaw_desc:0 "With Tusk dead, the only thing left is to march to Warsaw and get rid of Tusk's government. Who would've thought the civil war can be avoided."
+
+ PLC_pacify_nawrocki:0 "Pacify Nawrocki"
+ PLC_pacify_nawrocki_desc:0 "Tusk surrendered. Now it's time for Nawrocki. Our alliance with the Right ends here."
+
+ PLC_the_second_warsaw_conference:0 "The Second Warsaw Conference"
+ PLC_the_second_warsaw_conference_desc:0 "And so the civil war is over. Now it's time to create a peace agreement. Poland is finally together once more."
+
+ PLC_empire_of_the_sun:0 "Empire of the Sun"
+ PLC_empire_of_the_sun_desc:0 "Now, see, You don't get it, alright? These people have been opressing us for centuries. Centuries! And through God's Light I see us finally paying them all back."
+
+ PLC_the_eagle_forever:0 "The Eagle Forever"
+ PLC_the_eagle_forever_desc:0 "We've crushed Europe, everyone! All of western scum bow under our power. After what they've done to us, we finally showed him our Polish spirit. This is the dawn of the Polish Europe. Now, party and cherish this, ladies and gentlemen, for our empire is eternal."
+
+ PLC_a_new_european_union:0 "A New European Union"
+ PLC_a_new_european_union_desc:0 "Well, ladies and gentlemen. We've done it. Europe is once more united. It's about time for a revival of the European Union. We shall progress through prosperity."
+
+ PLC_the_grand_alliance:0 "The Grand Alliance"
+ PLC_the_grand_alliance_desc:0 "Alas, Europe belongs to us. It's time to make a change after the pandemic. We should abandon the ideas of the European Union and establish a new, economical and military alliance. None of this war should happen, ever."
