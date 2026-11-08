@@ -12,7 +12,9 @@ set_technology = {
 	tech_support = 1		
 
 }
-
+add_ideas = {
+	PLC_eastern_support
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.2.11"

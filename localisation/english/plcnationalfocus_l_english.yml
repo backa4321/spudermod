@@ -59,6 +59,73 @@
  PLC_the_second_warsaw_conference:0 "The Second Warsaw Conference"
  PLC_the_second_warsaw_conference_desc:0 "And so the civil war is over. Now it's time to create a peace agreement. Poland is finally together once more."
 
+ PLC_execute_the_traitors:0 "Execute the Traitors"
+ PLC_execute_the_traitors_desc:0 "The opposition was working against the country. This level of treason cannot be forgiven by any sentence. The fire squads are off."
+
+ PLC_the_warsaw_trials:0 "The Warsaw Trials"
+ PLC_the_warsaw_trials_desc:0 "With Tusk finally crushed. It's time for justice. Him and his associates need to be judged and sentenced."
+
+ PLC_a_new_chapter:0 "A New Chapter"
+ PLC_a_new_chapter_desc:0 "We are finally past a depressing time in our nation's history. Brother against brother, we irrationally fought for power. I'm glad this has finally came to a close, and that we were the ones who won. Our rule will bring peace to Poland, once and for all."
+
+ PLC_establish_a_kingdom:0 "Establish a Kingdom"
+ PLC_establish_a_kingdom_desc:0 "In the end, the best direction for Poland is it's original one. The monarchy must be brough back. With me as it's king, noone will dare challenge our sovereignty."
+
+ PLC_revenge_for_1939:0 "Revenge for 1939"
+ PLC_revenge_for_1939_desc:0 "The West is in shambles while we are our best selves! Remember what they did to us when we needed their help the most? They left us to ourselves and look what pain that caused us? Poland is the new big player in Europe. We should exploit that fact and finally deliver some payback. There is no step back."
+
+ PLC_polish_gold:0 "A Golden Poland"
+ PLC_polish_gold_desc:0 "My dream of the monarchy expands beyond a kingdom. We were forever destined to be greater, but our enemies took that greatness from us. We must reform Poland to the state it was in it's peak. The Commonwealth must shine."
+
+ PLC_revitalize_national_spirit:0 "Revitalize National Spirit"
+ PLC_revitalize_national_spirit_desc:0 "Man the guns and man the factories! Be proud to be Polish and be proud of being a part of its rebirth! We are the saviours of Europe."
+
+ PLC_our_eternal_enemy:0 "Our Eternal Enemy"
+ PLC_our_eternal_enemy_desc:0 "The Germans have been a burden for us since the dawn of our history. The tables have turned now. It's our time to shine."
+
+ PLC_viva_polonia:0 "Viva Polonia"
+ PLC_viva_polonia_desc:0 "When Germany attacked us, we counted on the help of the allies. What did they do to help us? Nothing! Exactly. The French sat back and watched as our country collapsed. Now that's coming back to get them. This is the end of the French Republic."
+
+ PLC_the_march_to_minsk:0 "The March to Minsk"
+ PLC_the_march_to_minsk_desc:0 "It's well known that Belarus belonged to the Commonwealth for centuries. They should be happy to be apart of our new, perfect nation."
+
+ PLC_fate_of_ukraine:0 "Fate of Ukraine"
+ PLC_fate_of_ukraine_desc:0 "Ukraine is already weakened from Tusk's attacks and the Russian war. It's either war or submission. They stand no chance against us."
+
+ PLC_friends_by_force:0 "Friends by Force"
+ PLC_friends_by_force_desc:0 "Lithuania cannot win a war with us in any way. We might aswell assert our dominance and mobilize the army."
+
+ PLC_second_polish_lithuanian_union:0 "Second Polish-Lithuanian Union"
+ PLC_second_polish_lithuanian_union_desc:0 "We've always been good friends with Lithuania. This is the dawn of the Second Polish-Lithuanian Commonwealth. We must sign a union."
+
+ PLC_crackdown_on_bavaria:0 "Crackdown on Bavaria"
+ PLC_crackdown_on_bavaria_desc:0 "Another step in a Polish Germany. Bavaria is the next logical step after the German Republic."
+
+ PLC_polish_berlin:0 "Polish Berlin"
+ PLC_polish_berlin_desc:0 "And so Berlin is ours! We've showed them what we can do when we are united."
+
+ PLC_incorporate_france:0 "Incorporate France"
+ PLC_incorporate_france_desc:0 "Well, this is the end of France. Who would've thought that a time where we control the west will ever come. France belongs to Poland now."
+
+ PLC_french_enclave:0 "French Enclave"
+ PLC_french_enclave_desc:0 "France fell to Poland. Such a waste of their resources. They don't even deserve to be apart of Poland. We must make a french puppet state."
+
+ PLC_expand_the_monarch_authority:0 "Expand the Monarch Authority"
+ PLC_expand_the_monarch_authority_desc:0 "With the rise of the Kingdom of Poland, we must prioritize the power of our king, Grzegorz. He is our only light. Our only leader."
+
+ PLC_lean_towards_the_nobility:0 "Lean Towards the Nobility"
+ PLC_lean_towards_the_nobility_desc:0 "With the rise of the Kingdom of Poland, we should spread our power amongst the elite. Afterall, they are the motors to our country and it's economics. The new nobility will serve well as the King's closest advisors."
+
+ PLC_establish_the_kievan_office:0 "Establish the Kievan Office"
+ PLC_establish_the_kievan_office_desc:0 "With the fall of Ukraine, our territory is expanded by a significant margin. A governing body in Kiev will strengthen our authority there aswell as in Belarus."
+
+ PLC_develop_the_monarchy_in_lithuania:0 "Develop the Monarchy in Lithuania"
+ PLC_develop_the_monarchy_in_lithuania_desc:0 "Lithuania is our closest friend. We must put extra effort in expanding our reach to control them."
+
+ PLC_integrate_the_eastern_block:0 "Integrate the Eastern Block"
+ PLC_integrate_the_eastern_block_desc:0 "With Ukraine and Belarus incorporated into Poland it's time to fully integrate them into our nation. They are now Poles and they work for the Polish monarchy."
+ 
+
  PLC_empire_of_the_sun:0 "Empire of the Sun"
  PLC_empire_of_the_sun_desc:0 "Now, see, You don't get it, alright? These people have been opressing us for centuries. Centuries! And through God's Light I see us finally paying them all back."
 

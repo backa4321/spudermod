@@ -1,0 +1,27 @@
+﻿capital = 10
+recruit_character = POL_donald_tusk
+add_equipment_subsidy = {
+	cic = 2000
+	equipment_type = infantry_equipment_0
+}
+set_research_slots = 2
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+
+}
+add_ideas = political_turmoil
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 66
+	communism = 32
+	neutrality = 2
+	fascism = 0
+}

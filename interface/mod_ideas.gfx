@@ -7,4 +7,8 @@ Spritetypes = {
         name = "GFX_idea_CZE_sil_invasion"
         texturefile = "gfx/ideas/CZE_sil_invasion.dds"
     }
+    spriteType = {
+        name = "GFX_idea_PLC_eastern_support"
+        texturefile = "gfx/ideas/PLC_eastern_support.dds"
+    }
 }
