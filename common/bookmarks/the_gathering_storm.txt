@@ -54,6 +54,7 @@ bookmarks = {
 			ideology = neutrality
 			version = base_game
 			ideas={
+				PLC_eastern_support
 			}
 			focuses = {
 
