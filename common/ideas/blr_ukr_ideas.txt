@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		BLR_UKR_cooperation = {
+			available = {
+				
+			}
+
+			removal_cost = -1
+			
+			picture = test
+			
+			modifier = {
+				army_org_factor = 0.01
+				army_advisor_cost_factor = -0.15
+				improve_relations_maintain_cost_factor = -0.5
+			}
+		}
+	}
+}

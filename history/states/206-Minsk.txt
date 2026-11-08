@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = BLR
+		set_demilitarized_zone = yes
 		victory_points = {
 			11370 20
 		}

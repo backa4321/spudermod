@@ -1,0 +1,18 @@
+characters = {
+    BLR_vladimir_novosiad = {
+        name=BLR_vladimir_novosiad
+        portraits = {
+            civilian = {
+                large="GFX_portrait_BLR_vladimir_novosiad"
+            }
+        }
+        country_leader = {
+            ideology=liberalism
+            traits = { 
+                liberal_journalist
+
+            }
+        }
+    }
+
+}

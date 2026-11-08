@@ -12,328 +12,344 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BLR_UKR_recovery_from_the_pandemic
-		icon = GFX_focus_POL_belarus_army
-		cost = 15
-		x = 5
-		y = 0
-		completion_reward = { 
-			add_political_power = 150
-		}
+	    id = BLR_UKR_recovery_from_the_pandemic
+	    icon = GFX_focus_POL_belarus_army
+	    x = 0
+	    y = 0
+	    cost = 5
+	    ai_will_do = {
+         factor = 1
+	    }
+	    completion_reward = {
+         add_political_power = 150
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_lending_a_hand
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_recovery_from_the_pandemic
-		}
-		cost = 15
-		x = 1
-		y = 1
-		completion_reward = {
-			BLR = {
-				capital_scope = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 2
-				}
-			}	
-			UKR = {
-				capital_scope = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 2
-				}
-			}
-			if = {
-				limit = { TAG = BLR }
-				add_opinion_modifier = {
-					target = UKR
-					modifier = SWI_close_ties
-				}
-				
-			}
-			else = {
-					add_opinion_modifier = {
-				target = BLR
-				modifier = SWI_close_ties
-			}
-				}
-			
-			
-			
-		}
+	    id = BLR_UKR_lending_a_hand
+	    icon = GFX_focus_POL_belarus_army
+	    x = -1
+	    y = 1
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_recovery_from_the_pandemic }
+	    completion_reward = {
+         BLR = {
+             capital_scope = {
+                 add_building_construction = {
+                     type = industrial_complex
+                     level = 1
+                     instant_build = yes
+                 }
+                 add_extra_state_shared_building_slots = 2
+             }
+         }
+         UKR = {
+             capital_scope = {
+                 add_building_construction = {
+                     type = industrial_complex
+                     level = 1
+                     instant_build = yes
+                 }
+                 add_extra_state_shared_building_slots = 2
+             }
+         }
+         if = {
+             limit = { TAG = BLR }
+             add_opinion_modifier = {
+                 target = UKR
+                 modifier = SWI_close_ties
+             }
+         }
+         else = {
+             add_opinion_modifier = {
+                 target = BLR
+                 modifier = SWI_close_ties
+             }
+         }
+	    }
 	}
 
 		
 	focus = {
-		id = BLR_UKR_shared_threat
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_recovery_from_the_pandemic
-		}
-		cost = 15
-		x = -1
-		y = 1
-		completion_reward = { 
-			ROOT = {
-				add_opinion_modifier = {
-					target = SOV
-					modifier = large_decrease
-				}
-			}
-		}
+	    id = BLR_UKR_shared_threat
+	    icon = GFX_focus_POL_belarus_army
+	    x = -3
+	    y = 1
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_recovery_from_the_pandemic }
+	    completion_reward = {
+         ROOT = {
+             add_opinion_modifier = {
+                 target = SOV
+                 modifier = large_decrease
+             }
+         }
+	    }
 	}
-	focus = {
-		id = BLR_UKR_capital_restored
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_recovery_from_the_pandemic
-		}
-		prerequisite = {
-			focus = BLR_UKR_shared_threat
-			focus = BLR_UKR_lending_a_hand
-		}
-	
-		cost = 15
-		x = 0
-		y = 2
-		completion_reward = { 
-			if = {
-				limit = { tag = blr}
-				remove_ideas = {
-				political_turmoil
-			}
-			}
-			
-			add_political_power = 50
-			add_stability = 0.1
-			ROOT = {
-				capital_scope = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 3
-				}
-			}
-		}
-	}
-	focus = {
-		id = BLR_UKR_satisfy_the_opposition
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_recovery_from_the_pandemic
-		}
-		
-	
-		cost = 15
-		x = 3
-		y = 1
-		completion_reward = { 
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.15
-			}
-			add_stability = 0.05
-			add_political_power = -50
-		}
-		mutually_exclusive = {
-			focus = BLR_UKR_break_the_opposition
-		}
-	}
-	focus = {
-		id = BLR_UKR_break_the_opposition
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_recovery_from_the_pandemic
-		}
-		mutually_exclusive = {
-			focus = BLR_UKR_satisfy_the_opposition
-		}
-	
-		cost = 15
-		x = 5
-		y = 1
-		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = -0.05
-			}
-			add_stability = -0.07
-			add_political_power = 200
-			add_timed_idea = {
-				idea = communist_revolutionaries
-				days = 50
-			}
 
-		 }
-	}
 	focus = {
-		id = BLR_UKR_build_the_foundation
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_capital_restored
-		}
-	
-	mutually_exclusive = {
-			focus = BLR_UKR_the_beginning_of_a_rivalry
-		}
-		cost = 15
-		x = -2
-		y = 3
-		completion_reward = { }
+	    id = BLR_UKR_capital_restored
+	    icon = GFX_focus_POL_belarus_army
+	    x = 0
+	    y = 2
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_recovery_from_the_pandemic }
+	    prerequisite = { focus = BLR_UKR_shared_threat focus = BLR_UKR_lending_a_hand }
+	    prerequisite = { focus = BLR_UKR_satisfy_the_opposition focus = BLR_UKR_break_the_opposition }
+	    ai_will_do = {
+         factor = 1
+	    }
+	    completion_reward = {
+         if = {
+             limit = { tag = blr}
+             remove_ideas = {
+                 political_turmoil
+             }
+         }
+         add_political_power = 50
+         add_stability = 0.1
+         ROOT = {
+             capital_scope = {
+                 add_building_construction = {
+                     type = industrial_complex
+                     level = 2
+                     instant_build = yes
+                 }
+                 add_building_construction = {
+                     type = infrastructure
+                     level = 2
+                     instant_build = yes
+                 }
+                 add_extra_state_shared_building_slots = 3
+             }
+         }
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_train_the_milita
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_capital_restored
-		}
-	
-	
-		cost = 15
-		x = 0
-		y = 3
-		completion_reward = { }
+	    id = BLR_UKR_satisfy_the_opposition
+	    icon = GFX_focus_POL_belarus_army
+	    x = 1
+	    y = 1
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_recovery_from_the_pandemic }
+	    mutually_exclusive = { focus = BLR_UKR_break_the_opposition }
+	    completion_reward = {
+         add_popularity = {
+             ideology = democratic
+             popularity = 0.15
+         }
+         add_stability = 0.05
+         add_political_power = -50
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_kiev_and_minsk
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_build_the_foundation
-		}
-	
-	
-		cost = 15
-		x = -2
-		y = 4
-		completion_reward = { }
+	    id = BLR_UKR_break_the_opposition
+	    icon = GFX_focus_POL_belarus_army
+	    x = 3
+	    y = 1
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_recovery_from_the_pandemic }
+	    mutually_exclusive = { focus = BLR_UKR_satisfy_the_opposition }
+	    completion_reward = {
+         add_popularity = {
+             ideology = democratic
+             popularity = -0.05
+         }
+         add_stability = -0.07
+         add_political_power = 200
+         add_timed_idea = {
+             idea = communist_revolutionaries
+             days = 50
+         }
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_the_eastern_coalition
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_kiev_and_minsk
-		}
-	
-	
-		cost = 15
-		x = -2
-		y = 5
-		completion_reward = { }
+	    id = BLR_UKR_build_the_foundation
+	    icon = GFX_focus_POL_belarus_army
+	    x = -1
+	    y = 3
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_capital_restored }
+	    mutually_exclusive = { focus = BLR_UKR_the_beginning_of_a_rivalry }
+	    available = {
+         NOT = {
+             OR = {
+                 UKR = {
+                     has_completed_focus = BLR_UKR_build_the_foundation
+                 }
+                 BLR = {
+                     has_completed_focus = BLR_UKR_build_the_foundation
+                 }
+             }
+         }
+	    }
+	    completion_reward = {
+         BLR = {add_ideas = BLR_UKR_cooperation}
+         UKR = {add_ideas = BLR_UKR_cooperation}
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_litwo_ojczyzno_moja
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_the_eastern_coalition
-		}
-	
-	
-		cost = 15
-		x = -3
-		y = 6
-		completion_reward = { }
-		mutually_exclusive = {
-			focus = BLR_UKR_forceful_friendship
-		}
-		}
-	focus = {
-		id = BLR_UKR_forceful_friendship
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_the_eastern_coalition
-		}
-	
-		mutually_exclusive = {
-			focus = BLR_UKR_litwo_ojczyzno_moja
-		}
-		cost = 15
-		x = -1
-		y = 6
-		completion_reward = { }
+	    id = BLR_UKR_train_the_milita
+	    icon = GFX_focus_POL_belarus_army
+	    x = 1
+	    y = 3
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_capital_restored }
 	}
+
 	focus = {
-		id = BLR_UKR_the_beginning_of_a_rivalry
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_capital_restored
-		}
-	
-		mutually_exclusive = {
-			focus = BLR_UKR_build_the_foundation
-		}
-		cost = 15
-		x = -5
-		y = 3
-		completion_reward = { }
+	    id = BLR_UKR_kiev_and_minsk
+	    icon = GFX_focus_POL_belarus_army
+	    x = 0
+	    y = 4
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_build_the_foundation }
+	    bypass = {
+         OR = {
+             UKR = {
+                 has_completed_focus = BLR_UKR_kiev_and_minsk
+             }
+             blr = {
+                 has_completed_focus = BLR_UKR_kiev_and_minsk
+             }
+         }
+	    }
+	    completion_reward = {
+         206 = {
+             add_building_construction = {
+                 type = industrial_complex
+                 level = 1
+                 instant_build = yes
+             }
+             add_building_construction = {
+                 type = arms_factory
+                 level = 1
+                 instant_build = yes
+             }
+             add_extra_state_shared_building_slots = 2
+         }
+         202 = {
+             add_building_construction = {
+                 type = industrial_complex
+                 level = 1
+                 instant_build = yes
+             }
+             add_building_construction = {
+                 type = arms_factory
+                 level = 1
+                 instant_build = yes
+             }
+             add_extra_state_shared_building_slots = 2
+         }
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_submition_or_war
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_the_beginning_of_a_rivalry
-		}
-	
-		cost = 15
-		x = -5
-		y = 4
-		completion_reward = { }
+	    id = BLR_UKR_the_eastern_coalition
+	    icon = GFX_focus_POL_belarus_army
+	    x = 0
+	    y = 5
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_kiev_and_minsk }
+	    ai_will_do = {
+         factor = 1
+	    }
+	    completion_reward = {
+         create_faction = "Eastern Coalition"
+         IF = {
+             limit = {TAG = BLR}
+             add_to_faction = UKR
+         } else = {
+             add_to_faction = BLR
+         }
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_prepare_for_russia
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_capital_restored
-		}
-	
-		cost = 15
-		x = 2
-		y = 3
-		completion_reward = { }
+	    id = BLR_UKR_litwo_ojczyzno_moja
+	    icon = GFX_focus_POL_belarus_army
+	    x = 1
+	    y = 6
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_the_eastern_coalition }
+	    mutually_exclusive = { focus = BLR_UKR_forceful_friendship }
+	    ai_will_do = {
+         factor = 1
+	    }
 	}
+
 	focus = {
-		id = BLR_UKR_fortify_the_border
-		icon = GFX_focus_POL_belarus_army
-		relative_position_id = BLR_UKR_recovery_from_the_pandemic
-		prerequisite = {
-			focus = BLR_UKR_prepare_for_russia
-		}
-		prerequisite = {
-			focus = BLR_UKR_satisfy_the_opposition
-			focus = BLR_UKR_break_the_opposition
-		}
-	
-		cost = 15
-		x = 2
-		y = 4
-		completion_reward = { }
+	    id = BLR_UKR_forceful_friendship
+	    icon = GFX_focus_POL_belarus_army
+	    x = -1
+	    y = 6
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_the_eastern_coalition }
+	    mutually_exclusive = { focus = BLR_UKR_litwo_ojczyzno_moja }
+	    ai_will_do = {
+         factor = 1
+	    }
 	}
+
+	focus = {
+	    id = BLR_UKR_the_beginning_of_a_rivalry
+	    icon = GFX_focus_POL_belarus_army
+	    x = -3
+	    y = 3
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_capital_restored }
+	    mutually_exclusive = { focus = BLR_UKR_build_the_foundation }
+	    available = {
+         NOT = {
+             OR = {
+                 UKR = {
+                     has_completed_focus = BLR_UKR_build_the_foundation
+                 }
+                 BLR = {
+                     has_completed_focus = BLR_UKR_build_the_foundation
+                 }
+             }
+         }
+	    }
+	}
+
+	focus = {
+	    id = BLR_UKR_submition_or_war
+	    icon = GFX_focus_POL_belarus_army
+	    x = -2
+	    y = 4
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_the_beginning_of_a_rivalry }
+	}
+
+	focus = {
+	    id = BLR_UKR_prepare_for_russia
+	    icon = GFX_focus_POL_belarus_army
+	    x = 3
+	    y = 3
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_capital_restored }
+	    completion_reward = {
+         if = {
+             limit = {TAG = BLR}
+             capital_scope = {
+             }
+         }
+	    }
+	}
+
+	focus = {
+	    id = BLR_UKR_fortify_the_border
+	    icon = GFX_focus_POL_belarus_army
+	    x = 2
+	    y = 4
+	    cost = 5
+	    prerequisite = { focus = BLR_UKR_prepare_for_russia }
+	    prerequisite = { focus = BLR_UKR_satisfy_the_opposition focus = BLR_UKR_break_the_opposition }
+	}
+
 }

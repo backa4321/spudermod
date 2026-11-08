@@ -32,4 +32,8 @@ spriteTypes = {
         name = "GFX_portrait_SIL_jacek_sutryk"
         texturefile = "gfx/leaders/SIL/portrait_SIL_jacek_sutryk.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_BLR_vladimir_novosiad"
+        texturefile = "gfx/leaders/BLR/portrait_BLR_vladimir_novosiad.dds"
+    }
 }
