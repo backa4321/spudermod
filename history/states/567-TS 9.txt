@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = YAM
 		buildings = {
 			infrastructure = 2
 		}
