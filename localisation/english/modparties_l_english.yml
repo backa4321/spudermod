@@ -1,0 +1,12 @@
+﻿l_english:
+ PLC_fascism_party: "KKP"
+ PLC_fascism_party_long: "Konfederacja Korony Polskiej"
+ PLC_democratic_party: "KWN"
+ PLC_democratic_party_long: "Konfederacja - Wolność i Niepodległość"
+ PLC_communism_party: "PZSS"
+ PLC_communism_party_long: "Polski Związek Socjalistyczno-Społeczny"
+ PLC_neutrality_party: "CKB"
+ PLC_neutrality_party_long: "Koalicja Cywilna Białegostoku"
+ 
+ RPL_democratic_party: "PiS"
+ RPL_democratic_party_long: "Prawo i Sprawiedliwość"

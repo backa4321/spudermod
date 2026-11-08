@@ -32,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = PLC_settle_the_monarchy
 
-		icon = GFX_focus_PLC_template
+		icon = GFX_focus_PLC_settle_the_monarchy
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
@@ -45,7 +45,7 @@ focus_tree = {
 		#relative_position_id = 	
 		x = 35
 		y = 0
-		cost = 15
+		cost = 1
 
 		offset = {
 			x = -5
@@ -62,7 +62,7 @@ focus_tree = {
 	focus = {
 		id = PLC_coronate_braun
 
-		icon = GFX_focus_PLC_template
+		icon = GFX_focus_PLC_coronate_braun
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
@@ -75,7 +75,7 @@ focus_tree = {
 		#relative_position_id = 	
 		x = 35
 		y = 1
-		cost = 15
+		cost = 2
 
 		offset = {
 			x = -5
@@ -232,7 +232,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 34.5
+		x = 35
 		y = 3
 		cost = 15
 
@@ -389,7 +389,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 43
+		x = 43.5
 		y = 2.5
 		cost = 15
 
@@ -420,10 +420,9 @@ focus = {
 			add_manpower = 750
 		}
 
-		relative_position_id = PLC_prepare_a_western_enclave
-		x = 4
-		y = 1
-	
+		#relative_position_id = 	
+		x = 46
+		y = 3.5
 		cost = 15
 
 		offset = {
@@ -506,39 +505,6 @@ focus = {
 
 	}
 	focus = {
-		id = PLC_advance_silesian_sovereignty
-
-		icon = GFX_focus_PLC_template
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		
-		
-		completion_reward = {
-			add_stability = 15
-			add_manpower = 750
-		}
-
-		#relative_position_id = 	
-		x = 42.5
-		y = 6
-		cost = 15
-
-		offset = {
-			x = -5
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-			}
-		}
-		prerequisite = { 
-			focus = PLC_integrate_silesia
-			}
-
-	}
-	focus = {
 		id = PLC_establish_the_sudeten_office
 
 		icon = GFX_focus_PLC_template
@@ -551,9 +517,9 @@ focus = {
 			add_manpower = 750
 		}
 
-		relative_position_id = PLC_prepare_a_western_enclave
-		x = 1.25
-		y = 2
+		#relative_position_id = 	
+		x = 43.5
+		y = 4.5
 		cost = 15
 
 		offset = {
@@ -680,7 +646,7 @@ focus = {
 
 		#relative_position_id = 	
 		x = 33
-		y = 6.75
+		y = 7
 		cost = 15
 
 		offset = {
@@ -712,7 +678,7 @@ focus = {
 
 		#relative_position_id = 	
 		x = 37
-		y = 6.75
+		y = 7
 		cost = 15
 
 		offset = {
@@ -1651,7 +1617,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 27
+		x = 26
 		y = 10
 		cost = 15
 
@@ -1683,7 +1649,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 27
+		x = 26
 		y = 11
 		cost = 15
 
@@ -1715,7 +1681,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 27
+		x = 26
 		y = 12
 		cost = 15
 
@@ -1747,7 +1713,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 25
+		x = 24
 		y = 11
 		cost = 15
 
@@ -1779,7 +1745,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 25
+		x = 24
 		y = 12
 		cost = 15
 
@@ -1811,7 +1777,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 24.5
+		x = 23.5
 		y = 13
 		cost = 15
 
@@ -1847,7 +1813,7 @@ focus = {
 		}
 
 		#relative_position_id = 	
-		x = 27.5
+		x = 26.5
 		y = 13
 		cost = 15
 

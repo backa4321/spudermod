@@ -4,4 +4,13 @@ spriteTypes = {
         name = "GFX_focus_PLC_template"
         texturefile = "gfx/goals/focus_PLC_template.dds"
     }
+	spriteType = {
+		name = "GFX_focus_PLC_settle_the_monarchy"
+		texturefile = "gfx/goals/focus_PLC_settle_the_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_PLC_coronate_braun"
+		texturefile = "gfx/goals/focus_PLC_coronate_braun.dds"
+	}
+	
 }
