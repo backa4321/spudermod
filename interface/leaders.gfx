@@ -36,4 +36,16 @@ spriteTypes = {
         name = "GFX_portrait_BLR_vladimir_novosiad"
         texturefile = "gfx/leaders/BLR/portrait_BLR_vladimir_novosiad.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_anarchy"
+        texturefile = "gfx/leaders/generic/portrait_anarchy.png"
+    }
+	spriteType = {
+		name = "GFX_portrait_HNG_viktor_orban"
+		texturefile = "gfx/leaders/HNG/portrait_HNG_viktor_orban.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_peter_magyar"
+		texturefile = "gfx/leaders/HUN/portrait_HUN_peter_magyar.dds"
+	}
 }

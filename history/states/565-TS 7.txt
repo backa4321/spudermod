@@ -14,11 +14,7 @@ state = {
 	history = {
 
 		owner = YAM
-		add_core_of = SOV
-		add_core_of = EVE
-		add_core_of = FER 
-
-		buildings = {
+buildings = {
 			infrastructure = 1
 		}
 		

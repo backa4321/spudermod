@@ -1,0 +1,18 @@
+characters = {
+	HUN_peter_magyar = {
+		name = HUN_peter_magyar
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_HUN_peter_magyar"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				right_industrialist
+
+			}
+		}
+	}
+
+}

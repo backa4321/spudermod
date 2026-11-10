@@ -1,0 +1,18 @@
+characters = {
+	HNG_viktor_orban = {
+		name = HNG_viktor_orban
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_HNG_viktor_orban"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {
+				nationalist_symbol
+
+			}
+		}
+	}
+
+}

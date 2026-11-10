@@ -1,0 +1,17 @@
+capital = 400
+set_research_slots = 0
+add_ideas = anarchy_idea
+recruit_character = generic_anarchy_leader
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1934.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}

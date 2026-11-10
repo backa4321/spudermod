@@ -58,7 +58,7 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
+	color = { 165 165 105 }
 	color_ui = rgb { 255 255 155 }
 }
 EST = {
@@ -128,6 +128,10 @@ IRE = {
 HUN = {
 	color = rgb { 155 126 98 }
 	color_ui = rgb { 155 126 98 }
+}
+HNG = {
+	color = rgb { 138 112 87 }
+	color_ui = rgb { 171 107 65 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -802,8 +806,8 @@ KKP = {
 	color_ui = rgb { 204 102 0 }
 }
 YAM = {
-	color = rgb { 204 153 0 }
-	color_ui = rgb { 153 115 0 }
+	color = rgb { 25 25 25 }
+	color_ui = rgb { 25 25 25 }
 }
 TAY = {
 	color = rgb { 0 102 153 }

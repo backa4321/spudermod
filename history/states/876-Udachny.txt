@@ -12,11 +12,7 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-
-		add_core_of = SOV
-		add_core_of = YAK
-
-	}
+}
 
 	provinces = {
 		1722 2853 3184 6085 13060 

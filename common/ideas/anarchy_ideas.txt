@@ -1,0 +1,26 @@
+ideas = {
+    country = {
+        anarchy_idea = {
+			available = {
+				TAG = YAM
+			}
+
+			removal_cost = -1
+
+			picture = SPR_anarchist_society
+
+			modifier = {
+				research_speed_factor = -999
+				army_org_factor = -999
+				supply_combat_penalties_on_core_factor = 999
+				supply_factor = -999
+				justify_war_goal_time = 999
+				enemy_justify_war_goal_time = 999
+				stability_factor = -999
+				war_support_factor = -999
+				monthly_population = -25
+				political_power_gain = -5
+			}
+		}
+    }
+}

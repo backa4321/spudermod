@@ -1,0 +1,10 @@
+focus_tree = {
+	id = ANARCHY_focus
+	country = {
+		factor = 0
+		modifier = {
+			TAG = YAM
+			add = 500
+		}
+	}
+}

@@ -1,0 +1,18 @@
+characters = {
+    generic_anarchy_leader = {
+        name=generic_anarchy_leader
+        portraits = {
+            civilian = {
+                large="GFX_portrait_anarchy"
+            }
+        }
+        country_leader = {
+            ideology= anarchism
+            traits = { 
+        
+
+            }
+        }
+    }
+
+}
